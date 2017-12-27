@@ -3,7 +3,16 @@
     "displayName": "vscode-kubernetes",
     "description": "Run kinds of kubernetes commands in vscode smoothly.",
     "version": "0.0.1",
-    "publisher": "SummerSun",
+    "publisher": "Summer",
+    "bugs": {
+        "url": "https://github.com/summersun/vscode-kubernetes/issues",
+        "email": "victoriasqq@gmail.com"
+    },
+    "homepage": "https://github.com/summersun/vscode-kubernetes/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/summersun/vscode-kubernetes.git"
+    },
     "engines": {
         "vscode": "^1.19.0"
     },
@@ -11,6 +20,7 @@
         "Other"
     ],
     "activationEvents": [
+        "*",
         "onCommand:kubernetes.viewDeployment"
     ],
     "main": "./out/extension",
