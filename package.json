@@ -1,7 +1,7 @@
 {
     "name": "kubernetes",
-    "displayName": "vscode-kubernetes",
-    "description": "Run kinds of kubernetes commands in vscode smoothly.",
+    "displayName": "Kubernetes Toolkit",
+    "description": "Kubernetes toolkit in vscode to manage clusters, pods, containers ,deployments, etc.",
     "version": "0.0.1",
     "publisher": "Summer",
     "bugs": {
